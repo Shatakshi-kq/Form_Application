@@ -44,11 +44,11 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
             if (binding.Phone1.text!!.isEmpty()){
                 Toast.makeText(this, "Please enter phone number", Toast.LENGTH_SHORT).show()
             }
-           else if(binding.Phone.editText?.text.toString() == viewmodel.getPhone()){
-               startActivity(Intent(this, MainActivity::class.java))
-           }else {
-               Toast.makeText(this, "${binding.Phone.editText?.text.toString()} not registered", Toast.LENGTH_SHORT).show()
-           }
+            else if(binding.Phone.editText?.text.toString() == viewmodel.getPhone()){
+                startActivity(Intent(this, MainActivity::class.java))
+            }else {
+                Toast.makeText(this, "${binding.Phone.editText?.text.toString()} not registered", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

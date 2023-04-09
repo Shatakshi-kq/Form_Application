@@ -10,7 +10,6 @@ import com.example.userformmui.SignIn
 import com.example.userformmui.Utlities.Keys
 import com.example.userformmui.databinding.ActivitySignUpBinding
 import com.example.userformmui.repository.SharedPreferenceRepo
-
 class SharedPrefrenceViewmodel(private val sharedPrefRepo: SharedPreferenceRepo, private val context: Context) : ViewModel()  {
 
     var firstName: MutableLiveData<String> = MutableLiveData()
@@ -58,6 +57,6 @@ class SharedPrefrenceViewmodel(private val sharedPrefRepo: SharedPreferenceRepo,
 //    }
 
 
-    }
+}
 
 

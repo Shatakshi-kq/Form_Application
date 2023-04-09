@@ -14,7 +14,7 @@
             android:layout_margin="10dp"
             android:textColor="@color/black"
             android:background="@drawable/blue_border_rounded_cornwe2"
-            android:hint="Users Information"
+            android:hint="User's Information"
             android:padding="20dp" />
 
 

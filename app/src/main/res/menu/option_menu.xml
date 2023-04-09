@@ -9,7 +9,12 @@
     <group android:id="@+id/aboutBmi">
         <item
             android:id="@+id/Student_info"
-            android:title="Students info" />
+            android:title="Student's Information" />
 
+    </group>
+    <group android:id="@+id/recyclerview">
+        <item
+            android:id="@+id/recycler_info"
+            android:title="Student's Info Recyclerview" />
     </group>
 </menu>
